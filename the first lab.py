@@ -4,6 +4,14 @@ invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
 invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
 invert([]) == []
 
+nums = [int(i) for i in input().split()]
+def invert(list):
+    return [-i for i in list]
+print(invert(nums))
+
+
+
+
 nums = [1, 2, 3, 4, 5]
 def invert(list):
     return [-i for i in list]
