@@ -17,4 +17,4 @@ def high_and_low(numbers):
     map(int, numbers)
     result = str(max(numbers)) + ' ' + str(min(numbers))
     return result
-print(high_and_low("1 2 3 4 5"))
+#print(high_and_low("1 2 3 4 5"))
