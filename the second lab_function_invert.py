@@ -4,6 +4,6 @@ invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
 invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
 invert([]) == []
 
-def invert(seq):
-    result = [-value for value in seq]
+def invert(lst):
+    result = [-value for value in lst]
     return result
