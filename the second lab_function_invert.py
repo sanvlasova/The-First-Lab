@@ -5,5 +5,5 @@ invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
 invert([]) == []
 
 def invert(lst):
-    result = [-value for value in lst]
-    return result
+    return [-value for value in lst]
+print(invert(lst))
