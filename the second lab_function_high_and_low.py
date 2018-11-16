@@ -15,5 +15,6 @@ print(high_and_low("1 2 -3 4 5"))
 def high_and_low(numbers):
     numbers = numbers.split(' ')
     map(int, numbers)
-    return str(max(numbers)) + ' ' + str(min(numbers))
+    result = str(max(numbers)) + ' ' + str(min(numbers))
+    return result
 print(high_and_low("1 2 3 4 5"))
